@@ -1,3 +1,3 @@
-console.log ("Testing script")
+var btnTranslate = document.querySelector("#btn-translate");
 
-alert("this script works")
+console.log (btnTranslate)
