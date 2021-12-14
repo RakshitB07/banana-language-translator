@@ -1,10 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 
+:root {
+    --creame-color: #ECB365;
+    --dark-blue: #064663;
+    --txt-color: #62D9AF;
+    --bright-yellow: #FFF300;
+}
+
+body {
+    font-family: 'Boogaloo',
+        sans-serif;
+    background-color: var(--dark-blue);
+    margin: 0px 40px;
+    text-align: center;
+}
+
 
 .txt-area {
     width: 60%;
     display: block;
-    margin: 1rem;
+    margin: auto;
     height: 10vh;
     padding: 1rem;
+    text-align: center;
+}
+
+.read-txt {
+    color: var(--txt-color);
+}
+
+.txt-size1 {
+    font-size: 2.5rem;
+}
+
+.txt-size2 {
+    font-size: 2rem;
+}
+
+.txt-yellow {
+    color: var(--bright-yellow);
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+#txt-input {
+    background-color: white;
+    font-family: 'Boogaloo',
+        sans-serif;
+    font-size: 1.5rem;
 }
