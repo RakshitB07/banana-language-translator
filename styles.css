@@ -83,3 +83,11 @@ body {
     color: var(--bright-yellow);
     background-color: black;
 }
+
+.footer .footer-tag {
+    padding-top: 14rem;
+    color: var(--bright-yellow);
+    font-size: large;
+    position: relative;
+    clear: both;
+}
