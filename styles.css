@@ -41,7 +41,7 @@ body {
     color: var(--bright-yellow);
 }
 
-#output {
+#txt-output {
     border: 1px solid black;
     height: 10vh;
     width: 60%;

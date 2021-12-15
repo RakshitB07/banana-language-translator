@@ -1,14 +1,14 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 var txtInput = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#output");
+var outputDiv = document.querySelector("#txt-output");
 
 btnTranslate.addEventListener("click", clickHandler)
 
 function clickHandler() {
     // outputDiv.innerText = "Translation: " + txtInput.value;
 
-    var inputText = txtInput.ariaValueMax; //Taking input
+    var inputText = txtInput.value; //Taking input
 
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
