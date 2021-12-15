@@ -5,6 +5,8 @@
     --dark-blue: #064663;
     --txt-color: #62D9AF;
     --bright-yellow: #FFF300;
+    --border-gold: gold;
+    --text-area-color: #94a3b8;
 }
 
 body {
@@ -23,6 +25,11 @@ body {
     height: 10vh;
     padding: 1rem;
     text-align: center;
+    border-width: 0.3rem;
+    border-color: var(--border-gold);
+    border-radius: 4rem;
+    color: var(--txt-color);
+    -webkit-text-stroke: blue 0.8px;
 }
 
 .read-txt {
@@ -49,13 +56,30 @@ body {
     padding: 1rem;
     text-align: center;
     display: block;
-    background-color: white;
-    font-size: 1.5rem;
+    font-size: xx-large;
+    border-width: 0.3rem;
+    border-color: var(--border-gold);
+    border-radius: 4rem;
+    color: var(--txt-color);
+    -webkit-text-stroke: blue 0.8px;
 }
 
 #txt-input {
     background-color: white;
     font-family: 'Boogaloo',
         sans-serif;
-    font-size: 1.5rem;
+    font-size: xx-large;
+}
+
+.btn-style {
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-family: 'Boogaloo',
+        sans-serif;
+    font-size: 125%;
+    color: var(--bright-yellow);
+    background-color: black;
 }
